@@ -12,15 +12,19 @@ class Usuario{
   private List<Prenda> prendas;
 
 
-  public Usuario(String nombre) {
+  public Usuario(String nombre, List<Prenda> prendas) {
     this.nombre = nombre;
-    this.prendas = new ArrayList<Prenda>();
+    this.prendas = prendas;
   }
 
   public void cargarPrenda(Prenda unaPrenda){
     if(unaPrenda.esValida()){
       prendas.add(unaPrenda);
     }
+  }
+
+  public List<Prenda> getPrendas(){
+    return prendas;
   }
 
 

@@ -31,6 +31,18 @@ class Prenda {
       this.colorSecundario = colorSecundario;
     }
 
+  @Override
+  public String toString() {
+    return "Prenda{" +
+        "tipoPrenda='" + tipoPrenda + '\'' +
+        ", categoria='" + categoria + '\'' +
+        ", telaOMaterial='" + telaOMaterial + '\'' +
+        ", colorPrincipal='" + colorPrincipal + '\'' +
+        ", colorSecundario='" + colorSecundario + '\'' +
+        '}';
+  }
+
+
     public boolean esValida(){
 
       if(false){//si una prenda se condice con su tipo -> tirar error
