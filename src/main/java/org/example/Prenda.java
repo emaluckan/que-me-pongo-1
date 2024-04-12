@@ -1,8 +1,5 @@
 package org.example;
 
-import java.util.List;
-
-
 class Prenda {
   String tipoPrenda;
   String categoria;
@@ -33,6 +30,16 @@ class Prenda {
       this.colorPrincipal = colorPrincipal;
       this.colorSecundario = colorSecundario;
     }
+
+    public boolean esValida(){
+
+      if(false){//si una prenda se condice con su tipo -> tirar error
+        throw new PrendaInvalida("El tipo de prenda que intentas ingresar no le corresponde a esa categoria");
+      }
+
+      return true;
+    }
+
   }
 
 class PrendaInvalida extends RuntimeException {
