@@ -47,3 +47,6 @@ class PrendaInvalida extends RuntimeException {
     super("La prenda es inválida porque " + mensaje);
   }
 }
+
+
+//pruebas
