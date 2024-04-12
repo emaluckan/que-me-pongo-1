@@ -44,3 +44,5 @@ if (tipoPrenda == null) {
 throw new PrendaInvalida("El tipo de prenda no puede ser un campo vacío");
 }
 
+
+[QMP1](https://docs.google.com/document/d/1k1f-9AuIohlBGB2soSNePJ6jLxM37_tZeSD-hW_esIQ/edit)
