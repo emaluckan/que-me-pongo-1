@@ -1,10 +1,3 @@
-Primera Iteración
-
-Comenzaremos definiendo que un atuendo es una combinación de prendas que tiene sentido usar juntas. Algunos ejemplos de atuendos podrían ser:
-tus anteojos de sol favoritos, una remera de mangas cortas azul, el pantalón que te regaló tu mamá y unas zapatillas converse.
-un pañuelo verde, una remera de mangas largas rayada, un pantalón de jean y un par de botas de cuero.
-una musculosa de mickey, una pollera amarilla y unas crocs.
-
 Como primer paso para generar los atuendos, les usuaries de QuéMePongo identificaron el siguiente requerimiento como principal:
 
 //importante
