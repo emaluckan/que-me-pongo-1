@@ -1,6 +1,72 @@
 package org.example;
 
+import java.util.List;
+
 class Prenda {
+  TipoPrenda tipoPrenda;
+  Color colorPrimario;
+  Color colorSecundario;
+  Material material;
+  Trama trama;
+
+
+  public Prenda(TipoPrenda tipoPrenda, Color colorPrimario, Material material, Trama trama) {
+    this.tipoPrenda = tipoPrenda;
+    this.colorPrimario = colorPrimario;
+    this.material = material;
+    this.trama = trama;
+  }
+
+  public Prenda(TipoPrenda tipoPrenda, Color colorPrimario, Color colorSecundario, Material material, Trama trama) {
+
+    if (colorPrimario == null) {
+      throw new IllegalArgumentException("El color es obligatorio");
+    }
+
+    if (tipoPrenda == null) {
+      throw new IllegalArgumentException("La prenda es obligatorio");
+    }
+
+    if (material == null) {
+      throw new IllegalArgumentException("La prenda es obligatorio");
+    }
+
+    if (trama == null) {
+      this.trama = Trama.LISA;
+    }
+    this.colorPrimario = colorPrimario;
+    this.colorSecundario = colorSecundario;
+    this.material = material;
+    this.trama = trama;
+  }
+
+}
+
+enum Material {
+  ALGODON,
+  TELA,
+  CUERO
+}
+
+enum Color {
+  AZUL,
+  MARRON,
+  NARANJA,
+  AMARILLO,
+  ROJO,
+  ROSA,
+  NEGRO,
+  BLANCO
+}
+
+enum Trama {
+  LISA,
+  RAYADA,
+  CUADROS,
+  ESTAMPADO
+}
+
+/*class Prenda {
   String tipoPrenda;
   String categoria;
   String telaOMaterial;
@@ -61,4 +127,4 @@ class PrendaInvalida extends RuntimeException {
 }
 
 
-//pruebas
+*/

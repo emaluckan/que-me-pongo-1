@@ -39,3 +39,21 @@ throw new PrendaInvalida("El tipo de prenda no puede ser un campo vacío");
 
 
 [QMP1](https://docs.google.com/document/d/1k1f-9AuIohlBGB2soSNePJ6jLxM37_tZeSD-hW_esIQ/edit)
+
+
+
+
+SEGUNDA TERACION
+---------------------------------------
+Como usuarie de QuéMePongo, quiero especificar qué trama tiene la tela de una prenda (lisa, rayada, con lunares, a cuadros o un estampado). LISTO
+Como usuarie de QuéMePongo, quiero crear una prenda especificando primero de qué tipo es. LISTO
+Como usuarie de QuéMePongo, quiero crear una prenda especificando en segundo lugar los aspectos relacionados a su material (colores, material, trama, etc) 
+para evitar elegir materiales inconsistentes con el tipo de prenda.LISTO
+Como usuarie de QuéMePongo, quiero guardar un borrador de la última prenda que empecé a cargar para continuar después. FALTA
+Como usuarie de QuéMePongo, quiero poder no indicar ninguna trama para una tela, y que por defecto ésta sea lisa. LISTO
+Como usuarie de QuéMePongo, quiero poder guardar una prenda solamente si esta es válida. FALTA
+
+Como usuario QueMePongo, quiero poder recibir sugerencias de uniformes armados. FALTA
+Como usuario QueMePongo, quiero que un uniforme siempre conste de una prenda superior, una inferior y un calzado FALTA
+Como administrador de QueMePongo, quiero poder configurar diferentes uniformes para distintas instituciones FALTA
+
